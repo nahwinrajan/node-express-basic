@@ -1,0 +1,34 @@
+<nav class="navbar navbar-default">
+  <div class="container">
+    <!-- Brand and hamburger menu -->
+    <div class="navbar-head">
+      <button class="navbar-toggle collapsed" data-toggled="collapse"
+        data-target="#collapse-menu" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a href="/" class="navbar-brand"><i class="fa fa-hand-peace-o"></i> Da Brandz!!</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="collapse-menu">
+      <ul class="nav navbar-nav">
+        <li <%=
+            (activePage.toLowerCase() === "about" ? 'class=active' : "")
+          %>>
+          <a href="about">About</a>
+        </li>
+        <li <%=
+            (activePage.toLowerCase() === "contact" ? 'class=active' : "")
+          %>>
+          <a href="contact">Contact</a>
+        </li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Sign Up <i class="fa fa-user-plus"></i></a></li>
+        <li><a href="#">Login <i class="fa fa-user"></i></a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
