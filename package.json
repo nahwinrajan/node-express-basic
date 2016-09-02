@@ -1,0 +1,21 @@
+{
+  "name": "node-express-basic",
+  "version": "1.0.0",
+  "description": "intro to node.js with express framework; just a simple site serving web pages to get familiar with express.js",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nahwinrajan/node-express-basic.git"
+  },
+  "author": "nrajan",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "*",
+    "express": "*",
+    "nodemailer": "*"
+  }
+}
